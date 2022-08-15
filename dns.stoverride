@@ -1,5 +1,5 @@
 name: DNS
-desc:国内使用阿里、腾讯、IQDNS北京BGP和全球节点和解析，国外使用谷歌、cloudflare和IQDNS全球节点解析
+desc: 国内使用阿里、腾讯、IQDNS北京BGP和全球节点和解析，国外使用谷歌、cloudflare和IQDNS全球节点解析
 
 dns:
   enable: true
