@@ -33,7 +33,7 @@ dns:
     - https://dns.google/dns-query
     - https://cloudflare-dns.com/dns-query
     - https://worldwide.passcloud.xyz/dns-query
-    - https://i.passcloud.xyz/dns-query
+    - quic://i.passcloud.xyz:784
   fallback-filter:
     geoip: true
     geoip-code: CN
