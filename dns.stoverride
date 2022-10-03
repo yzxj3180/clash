@@ -29,16 +29,16 @@ dns:
   nameserver:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
-    - quic://a.passcloud.xyz:784
-    - quic://i.passcloud.xyz:784
-    - quic://b.iqiq.io:784
+    - https://i.passcloud.xyz/dns-query
+    - https://a.passcloud.xyz/dns-query
+    - quic://b.iqiq.io:853
   fallback:
     - https://cloudflare-dns.com/dns-query
     - https://dns.quad9.net/dns-query
     - https://dns.google/dns-query
     - https://doh.opendns.com/dns-query
-    - quic://i.passcloud.xyz:784
-    - quic://a.passcloud.xyz:784
+    - https://i.passcloud.xyz/dns-query
+    - https://a.passcloud.xyz/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
