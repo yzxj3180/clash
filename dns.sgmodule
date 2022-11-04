@@ -175,5 +175,5 @@ acg.tv = server:syslib // BiliBili短网址
 # so-net.net.tw = server:ns1.so-net.net.tw // So-net Entertainment Taiwan
 # so-net.tw = server:ns1.so-net.net.tw // So-net Entertainment Taiwan
 # Taiwan Network Information Center
-*.tw = server:https://dns.twnic.tw/dns-query // TWNIC DNS
-*.taipei = server:https://dns.twnic.tw/dns-query // TWNIC DNS
+#*.tw = server:https://dns.twnic.tw/dns-query // TWNIC DNS
+#*.taipei = server:https://dns.twnic.tw/dns-query // TWNIC DNS
