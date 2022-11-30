@@ -11,11 +11,6 @@ encrypted-dns-follow-outbound-mode = true
 [Host]
 # > Modify Contents
 
-# > Apple
-networking.apple = server:https://doh.dns.apple.com/dns-query // Apple
-*.apple.com = server:https://doh.dns.apple.com/dns-query // Apple.com
-*.icloud.com = server:https://doh.dns.apple.com/dns-query // iCloud.com
-
 # > 阿里巴巴
 *.alibaba.cn = server:https://dns.alidns.com/dns-query // 阿里巴巴
 *.alibaba.com.cn = server:https://dns.alidns.com/dns-query // 阿里巴巴
@@ -99,80 +94,3 @@ url.cn = server:https://doh.pub/dns-query // 腾讯短网址
 *.bcehost.com = server:180.76.76.76 // 百度智能云 主机
 *.bcehosts.com = server:180.76.76.76 // 百度智能云 主机
 dwz.cn = server:180.76.76.76 // 百度短网址
-
-# > 360
-*.360.cn = server:https://doh.360.cn/dns-query // 360安全中心
-*.360safe.com = server:https://doh.360.cn/dns-query // 360安全卫士
-*.360kuai.com = server:https://doh.360.cn/dns-query // 360快资讯
-*.so.com = server:https://doh.360.cn/dns-query // 360搜索
-*.360webcache.com = server:https://doh.360.cn/dns-query // 360网页快照服务
-*.qihuapi.com = server:https://doh.360.cn/dns-query // 奇虎api
-*.qhimg.com = server:https://doh.360.cn/dns-query // 360图床
-*.qhimgs.com = server:https://doh.360.cn/dns-query // 360图床
-*.qhimgs?.com = server:https://doh.360.cn/dns-query // 360图床
-*.qhmsg.com = server:https://doh.360.cn/dns-query // 360
-*.qhres.com = server:https://doh.360.cn/dns-query // 奇虎静态资源
-*.qhres?.com = server:https://doh.360.cn/dns-query // 奇虎静态资源
-*.dhrest.com = server:https://doh.360.cn/dns-query // 导航静态文件
-*.qhupdate.com = server:https://doh.360.cn/dns-query // 360
-*.yunpan.cn = server:https://doh.360.cn/dns-query // 360安全云盘
-*.yunpan.com.cn = server:https://doh.360.cn/dns-query // 360安全云盘
-*.yunpan.com = server:https://doh.360.cn/dns-query // 360安全云盘
-urlqh.cn = server:https://doh.360.cn/dns-query // 360短网址
-
-# > BiliBili
-*.bilibili.com = server:syslib // BiliBili
-*.biliapi.com = server:syslib // BiliBili API
-*.biliapi.net = server:syslib // BiliBili API
-*.bilicdn?.com = server:syslib // BiliBili CDN
-*.hdslb.com = server:syslib // BiliBili 静态资源
-*.hdslb.net = server:syslib // BiliBili 静态资源
-cn-hk-eq-bcache-??.bilivideo.com = server:syslib // BiliBili 视频服务器（unknown）
-upos-hz-mirrorakam.akamaized.net = server:syslib // BiliBili upos视频服务器（akamai）
-upos-sz-mirrorasiaov.bilibilivideo.com = server:syslib // BiliBili upos视频服务器（asia-abroad.com）
-upos-sz-mirrorali.bilivideo.com = server:https://dns.alidns.com/dns-query // BiliBili upos视频服务器（阿里云）
-upos-sz-mirrorali?.bilivideo.com = server:https://dns.alidns.com/dns-query // BiliBili upos视频服务器（阿里云）
-upos-sz-mirrorali??.bilivideo.com = server:https://dns.alidns.com/dns-query // BiliBili upos视频服务器（阿里云）
-upos-sz-mirrorbos.bilivideo.com = server:180.76.76.76 // BiliBili upos视频服务器（百度云）
-upos-sz-mirrorcos.bilivideo.com = server:https://doh.pub/dns-query // BiliBili upos视频服务器（腾讯云）
-upos-sz-mirrorcos?.bilivideo.com = server:https://doh.pub/dns-query // BiliBili upos视频服务器（腾讯云）
-upos-sz-mirrorcos??.bilivideo.com = server:https://doh.pub/dns-query // BiliBili upos视频服务器（腾讯云）
-upos-sz-mirrorhw.bilivideo.com = server:syslib // BiliBili upos视频服务器（华为云）
-upos-sz-mirrorhw?.bilivideo.com = server:syslib // BiliBili upos视频服务器（华为云）
-upos-sz-mirrorks3.bilivideo.com = server:syslib // BiliBili upos视频服务器（金山云）
-upos-sz-mirrorks3?.bilivideo.com = server:syslib // BiliBili upos视频服务器（金山云）
-upos-sz-mirrorkodo.bilivideo.com = server:syslib // BiliBili upos视频服务器（七牛云）
-upos-sz-mirrorkodo?.bilivideo.com = server:syslib // BiliBili upos视频服务器（七牛云）
-upos-sz-mirrorwcs.bilivideo.com = server:syslib // BiliBili upos视频服务器（网宿）
-upos-sz-mirrorwcs?.bilivideo.com = server:syslib // BiliBili upos视频服务器（网宿）
-upos-sz-mirrorxycdn.bilivideo.com = server:syslib // BiliBili upos视频服务器（迅雷）
-upos-sz-upcdnbd??.bilivideo.com = server:180.76.76.76 // BiliBili upos视频服务器（百度云）
-upos-sz-upcdnhw.bilivideo.com = server:syslib // BiliBili uupos视频服务器（华为云）
-upos-sz-upcdntx.bilivideo.com = server:https://doh.pub/dns-query // BiliBili upos视频服务器（腾讯云）
-upos-sz-upcdnws.bilivideo.com = server:syslib // BiliBili upos视频服务器（网宿）
-upos-tf-all-js.bilivideo.com = server:syslib // BiliBili upos视频服务器（unknown）
-*.mcdn.bilivideo.com = server:syslib // BiliBili mCDN视频服务器
-*.bilivideo.com = server:syslib // BiliBili 视频
-*.bilivideo.cn = server:syslib // BiliBili 视频
-acg.tv = server:syslib // BiliBili短网址
-
-# > 京东
-*.jd.com = server:syslib // 京东
-*.360buyimg.com = server:syslib // 京东 静态资源
-*.jdcloud.com = server:syslib // 京东云
-*.jcloudstatic.com = server:syslib // 京东云 缓存和存储
-*.jcloudstatic.net = server:syslib // 京东云 静态资源
-*.jdgslb.com = server:syslib // 京东云 全局负载均衡
-3.cn = server:syslib // 京东短网址
-
-# > 🇹🇼 TW
-# 中华电信
-*.cht.com.tw  = server:https://dns.hinet.net/dns-query // 中华电信
-*.hinet.net = server:https://dns.hinet.net/dns-query // 中华电信HiNet
-*.emome.net = server:https://dns.hinet.net/dns-query // 中华电信emome
-# So-net
-# so-net.net.tw = server:ns1.so-net.net.tw // So-net Entertainment Taiwan
-# so-net.tw = server:ns1.so-net.net.tw // So-net Entertainment Taiwan
-# Taiwan Network Information Center
-#*.tw = server:https://dns.twnic.tw/dns-query // TWNIC DNS
-#*.taipei = server:https://dns.twnic.tw/dns-query // TWNIC DNS
